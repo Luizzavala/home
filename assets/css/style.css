@@ -1,17 +1,9 @@
-html {
-  font-family: system-ui;
-}
-
-.wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-
+/* Estilos generales para el logotipo */
 header {
   background-color: #333;
   text-align: center;
   padding: 20px 0;
+  margin-bottom: 20px;
 }
 
 img {
@@ -33,7 +25,6 @@ nav li {
   display: inline;
   margin-right: 20px;
 }
-
 
 nav a {
   text-decoration: none;
@@ -81,14 +72,40 @@ h4 {
   font-weight: bold;
 }
 
-@media (max-width:768px) {
+/* Estilos para pantallas de escritorio (ancho mínimo de 769px) */
+@media (min-width: 769px) {
   .columns {
-    grid-template-columns: repeat(2, 1fr);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* Cambia a 3 columnas en desktop */
+      gap: 20px; /* Espacio entre las tarjetas de menú */
+      justify-content: center;
   }
+  .menu-card {
+    margin: 0 auto;
+}
 }
 
-@media (max-width:480px) {
+/* Estilos para pantallas medianas (ancho máximo de 768px) */
+@media (max-width: 768px) {
   .columns {
-    grid-template-columns: repeat(1, 1fr);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+      gap: 20px; /* Espacio entre las tarjetas de menú */
+      justify-content: center;
   }
+  .menu-card {
+    margin: 0 auto;
+}
+}
+
+/* Estilos para pantallas pequeñas (ancho máximo de 480px) */
+@media (max-width: 480px) {
+  .columns {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); /* 1 columna en pantallas pequeñas */
+      justify-content: center;
+  }
+  .menu-card {
+    margin: 0 auto;
+}
 }
