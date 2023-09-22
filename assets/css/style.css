@@ -1,123 +1,68 @@
-/* Estilos generales para el logotipo */
+/* Estilo para el encabezado (header) */
 header {
   background-color: #333;
+  /* Cambia el color de fondo a tu preferencia */
+  padding: 10px 0;
   text-align: center;
-  padding: 20px 0;
-  margin-bottom: 20px;
 }
 
-img {
+/* Estilo para el contenedor del logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente el contenido */
+  align-items: center;
+  /* Centra verticalmente el contenido */
+}
+
+/* Estilo para el logo */
+.logo-container img {
   max-width: 100%;
+  /* Hace que la imagen sea responsiva */
   height: auto;
+  max-height: 200px;
+  /* Establece una altura máxima para el logo */
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav li.first-item {
-  margin-left: 20px;
-}
-
-nav li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #e74c3c;
-}
-
-.menu-card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  width: 300px;
-  margin: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.menu-image {
-  background-size: cover;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-.menu-content {
+/* Estilo para el contenedor de menú */
+#menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* Cambia automáticamente el número de columnas */
+  gap: 20px;
+  /* Espacio entre las tarjetas de menú */
   padding: 20px;
 }
 
-h3 {
+/* Estilo para la tarjeta de menú */
+.menu-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+/* Estilo para el nombre del plato */
+.menu-item-name {
+  font-size: 1.5em;
   margin: 0;
+  color: #333;
+  text-transform: capitalize;
 }
 
-h4 {
-  margin-top: 10px;
+/* Estilo para el precio del plato */
+.menu-item-price {
+  font-size: 1.2em;
+  margin: 0;
+  color: #000;
 }
 
-.menu-content p {
-  margin: 5px 0;
-}
-
-.precio-menu {
-  font-weight: bold;
-}
-
-/* Estilos para pantallas de escritorio (ancho mínimo de 769px) */
-@media (min-width: 1301px) {
-  .columns {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr); /* Cambia a 3 columnas en desktop */
-      gap: 20px; /* Espacio entre las tarjetas de menú */
-      justify-content: center;
+/* Media query para ajustar el diseño en pantallas más pequeñas */
+@media (max-width: 768px) {
+  #menu-container {
+    grid-template-columns: 1fr;
+    /* Cambia a una columna en pantallas más pequeñas */
   }
-  .menu-card {
-    margin: 0 auto;
-}
-}
-
-@media (max-width: 1300px) {
-  .columns {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); /* Cambia a 3 columnas en desktop */
-      gap: 20px; /* Espacio entre las tarjetas de menú */
-      justify-content: center;
-  }
-  .menu-card {
-    margin: 0 auto;
-}
-}
-
-/* Estilos para pantallas medianas (ancho máximo de 768px) */
-@media (max-width: 850px) {
-  .columns {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
-      gap: 20px; /* Espacio entre las tarjetas de menú */
-      justify-content: center;
-  }
-  .menu-card {
-    margin: 0 auto;
-}
-}
-
-/* Estilos para pantallas pequeñas (ancho máximo de 480px) */
-@media (max-width: 480px) {
-  .columns {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr); /* 1 columna en pantallas pequeñas */
-      justify-content: center;
-  }
-  .menu-card {
-    margin: 0 auto;
-}
 }
