@@ -73,7 +73,7 @@ h4 {
 }
 
 /* Estilos para pantallas de escritorio (ancho mínimo de 769px) */
-@media (min-width: 769px) {
+@media (min-width: 1301px) {
   .columns {
       display: grid;
       grid-template-columns: repeat(4, 1fr); /* Cambia a 3 columnas en desktop */
@@ -85,8 +85,20 @@ h4 {
 }
 }
 
+@media (max-width: 1300px) {
+  .columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Cambia a 3 columnas en desktop */
+      gap: 20px; /* Espacio entre las tarjetas de menú */
+      justify-content: center;
+  }
+  .menu-card {
+    margin: 0 auto;
+}
+}
+
 /* Estilos para pantallas medianas (ancho máximo de 768px) */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .columns {
       display: grid;
       grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
