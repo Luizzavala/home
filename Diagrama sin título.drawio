@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T19:19:36.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.3" etag="X4x0nFNbBGROYatEjqNt" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-26T19:49:55.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LES5pNkL6DbA6umCk7V_" version="24.6.3" type="github">
   <diagram name="Página-1" id="8dBpITnWuRJ5diKDBL87">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-2" value="&lt;b&gt;Colaborador&lt;/b&gt;&lt;div&gt;&lt;b&gt;Prospecto&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Datos Personales.&lt;/li&gt;&lt;li&gt;Dirección.&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Documentos&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;INE Anverso&lt;/li&gt;&lt;li&gt;INE Reverzo&lt;/li&gt;&lt;li&gt;Autorizacion CC&lt;/li&gt;&lt;li&gt;Comprobante de Domicilio&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-6" target="AXPtAzIvpi6q_bX6m9Xc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-6" target="AXPtAzIvpi6q_bX6m9Xc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-6" value="&lt;div&gt;&lt;b&gt;MESA DE CREDITO&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Respuesta de CC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-15" target="AXPtAzIvpi6q_bX6m9Xc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-15" target="AXPtAzIvpi6q_bX6m9Xc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-15" value="&lt;br&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;&lt;b&gt;ASESOR&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Nueva&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&amp;nbsp;Consulta de crédito&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-18" value="&lt;div&gt;Sube Documento&lt;/div&gt;Consulta de Circulo de Crédito" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="365" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-22" target="AXPtAzIvpi6q_bX6m9Xc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-22" value="ASESOR&lt;br&gt;&lt;br&gt;Pre-Solicitud" style="whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-24" value="&lt;div&gt;&lt;b&gt;Prospecto&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Datos Personales.&lt;/li&gt;&lt;li&gt;Dirección.&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;Documentos&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="380" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-27" target="AXPtAzIvpi6q_bX6m9Xc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-27" value="Documentación&amp;nbsp;&lt;div&gt;Ilegible&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="237.5" width="116.67" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-29" target="AXPtAzIvpi6q_bX6m9Xc-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-29" value="Asesor&lt;div&gt;Consulta de Crédito&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38.33500000000001" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-33" target="AXPtAzIvpi6q_bX6m9Xc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-33" value="Subir&amp;nbsp;&lt;div&gt;Documentacion&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="95" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AXPtAzIvpi6q_bX6m9Xc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.016;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="AXPtAzIvpi6q_bX6m9Xc-27" target="AXPtAzIvpi6q_bX6m9Xc-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
