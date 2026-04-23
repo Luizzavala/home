@@ -106,24 +106,30 @@ function underThousand(n) {
   return remainder ? `${HUNDREDS[hundred]} ${underHundred(remainder)}` : HUNDREDS[hundred];
 }
 function numberToSpanishWords(value) {
-  const amount = Math.floor(Number(value || 0));
-  const cents = Math.round((Number(value || 0) - amount) * 100).toString().padStart(2, "0");
-  if (amount === 0)
-    return `cero con ${cents}/100`;
-  if (amount < 1000)
-    return `${underThousand(amount)} con ${cents}/100`;
-  const thousands = Math.floor(amount / 1000);
-  const remainder = amount % 1000;
+  const num = Number(value || 0);
+  const amount = Math.floor(num);
+  const cents = Math.round((num - amount) * 100);
   let words = "";
-  if (thousands === 1)
-    words = "mil";
-  else if (thousands < 1000)
-    words = `${underThousand(thousands)} mil`;
-  else
-    words = String(amount);
-  if (remainder)
-    words += ` ${underThousand(remainder)}`;
-  return `${words} con ${cents}/100`;
+  if (amount === 0)
+    words = "cero";
+  else if (amount < 1000)
+    words = underThousand(amount);
+  else {
+    const thousands = Math.floor(amount / 1000);
+    const remainder = amount % 1000;
+    if (thousands === 1)
+      words = "mil";
+    else if (thousands < 1000)
+      words = `${underThousand(thousands)} mil`;
+    else
+      words = String(amount);
+    if (remainder)
+      words += ` ${underThousand(remainder)}`;
+  }
+  if (cents > 0) {
+    return `${words} con ${cents} centavos `;
+  }
+  return `${words}`;
 }
 
 // src/main.js
@@ -148,6 +154,10 @@ function createInitialState() {
     taxRate: 0.16,
     advance: 0,
     items: [
+      { qty: 1, description: "", unitPrice: 0 },
+      { qty: 1, description: "", unitPrice: 0 },
+      { qty: 1, description: "", unitPrice: 0 },
+      { qty: 1, description: "", unitPrice: 0 },
       { qty: 1, description: "", unitPrice: 0 }
     ]
   };
